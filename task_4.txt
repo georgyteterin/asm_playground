@@ -1,0 +1,9 @@
+mov A, 231
+
+.loop:
+	mov [A], 170
+	inc A
+	cmp a, 255
+	jnz .loop
+mov a, 255
+mov [a], 170
