@@ -1,0 +1,9 @@
+mov A, 231
+mov B, 47
+
+.loop:
+	mov [A], B
+	inc A
+	inc B
+	cmp B, 58
+	jnz .loop
