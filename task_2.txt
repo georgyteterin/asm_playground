@@ -1,0 +1,6 @@
+mov A, 128
+.loop:
+	mov [A], 1
+	inc A
+	cmp A, 144
+	jnz .loop
